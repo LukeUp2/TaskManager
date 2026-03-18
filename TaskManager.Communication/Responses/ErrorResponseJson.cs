@@ -7,6 +7,10 @@ namespace TaskManager.Communication.Responses
 {
     public class ErrorResponseJson
     {
-        public List<string> Errors { get; set; } = [];
+        public IList<string> Errors { get; set; } = [];
+        public ErrorResponseJson(IList<string> errors)
+        {
+            Errors = errors;
+        }
     }
 }

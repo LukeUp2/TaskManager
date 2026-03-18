@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using TaskManager.Application.UseCases.Tasks.Create;
+using TaskManager.Communication.Requests;
 using TaskManager.Communication.Responses;
 
 namespace TaskManager.API.Controllers
@@ -8,9 +10,11 @@ namespace TaskManager.API.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(typeof(ErrorResponseJson), StatusCodes.Status400BadRequest)]
-        public IActionResult Create()
+        public IActionResult Create([FromBody] CreateTaskRequestJson request, [FromServices] CreateTaskUseCase useCase)
         {
-            return Ok();
+            useCase.Execute(request);
+
+            return NoContent();
         }
 
         [HttpGet]

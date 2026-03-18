@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "TaskManager.Communication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/TaskManager.Communication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManager.Communication.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TaskManager.Communication/1.0.0": {
+      "type": "project",
+      "path": "../TaskManager.Communication/TaskManager.Communication.csproj",
+      "msbuildProject": "../TaskManager.Communication/TaskManager.Communication.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "TaskManager.Communication >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\joaos\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\joaos\\Dev\\Rocketseat\\GerenciadorTarefas\\TaskManager\\TaskManager.Communication\\TaskManager.Communication.csproj": {
+              "projectPath": "C:\\Users\\joaos\\Dev\\Rocketseat\\GerenciadorTarefas\\TaskManager\\TaskManager.Communication\\TaskManager.Communication.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
