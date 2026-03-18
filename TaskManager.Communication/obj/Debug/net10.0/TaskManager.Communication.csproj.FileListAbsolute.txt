@@ -9,3 +9,4 @@ C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communi
 C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\refint\TaskManager.Communication.dll
 C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\TaskManager.Communication.pdb
 C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\ref\TaskManager.Communication.dll
+c:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\TaskManager.Communication.sourcelink.json
