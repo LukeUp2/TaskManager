@@ -2,44 +2,84 @@
   "version": 3,
   "targets": {
     "net10.0": {
-      "TaskManager.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
+      "Microsoft.AspNetCore.OpenApi/10.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "2.0.0"
+        },
         "compile": {
-          "bin/placeholder/TaskManager.Application.dll": {}
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "bin/placeholder/TaskManager.Application.dll": {}
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/Microsoft.AspNetCore.OpenApi.targets": {}
         }
       },
-      "TaskManager.Communication/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
+      "Microsoft.OpenApi/2.0.0": {
+        "type": "package",
         "compile": {
-          "bin/placeholder/TaskManager.Communication.dll": {}
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "bin/placeholder/TaskManager.Communication.dll": {}
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     }
   },
   "libraries": {
-    "TaskManager.Application/1.0.0": {
-      "type": "project",
-      "path": "../TaskManager.Application/TaskManager.Application.csproj",
-      "msbuildProject": "../TaskManager.Application/TaskManager.Application.csproj"
+    "Microsoft.AspNetCore.OpenApi/10.0.4": {
+      "sha512": "OsEhbmT4Xenukau5YCR867gr/HmuAJ9DqMBPQGTcmdNU/TqBqdcnB+yLNwD/mTdkHzLBB+XG7cI4H1L5B1jx+Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.openapi/10.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.OpenApi.SourceGenerators.dll",
+        "build/Microsoft.AspNetCore.OpenApi.targets",
+        "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.10.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
+      ]
     },
-    "TaskManager.Communication/1.0.0": {
-      "type": "project",
-      "path": "../TaskManager.Communication/TaskManager.Communication.csproj",
-      "msbuildProject": "../TaskManager.Communication/TaskManager.Communication.csproj"
+    "Microsoft.OpenApi/2.0.0": {
+      "sha512": "GGYLfzV/G/ct80OZ45JxnWP7NvMX1BCugn/lX7TH5o0lcVaviavsLMTxmFV2AybXWjbi3h6FF1vgZiTK6PXndw==",
+      "type": "package",
+      "path": "microsoft.openapi/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Microsoft.OpenApi.dll",
+        "lib/net8.0/Microsoft.OpenApi.pdb",
+        "lib/net8.0/Microsoft.OpenApi.xml",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.2.0.0.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "TaskManager.Application >= 1.0.0",
-      "TaskManager.Communication >= 1.0.0"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.4"
     ]
   },
   "packageFolders": {
@@ -73,14 +113,7 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {
-            "C:\\Users\\joaos\\Dev\\Rocketseat\\GerenciadorTarefas\\TaskManager\\TaskManager.Application\\TaskManager.Application.csproj": {
-              "projectPath": "C:\\Users\\joaos\\Dev\\Rocketseat\\GerenciadorTarefas\\TaskManager\\TaskManager.Application\\TaskManager.Application.csproj"
-            },
-            "C:\\Users\\joaos\\Dev\\Rocketseat\\GerenciadorTarefas\\TaskManager\\TaskManager.Communication\\TaskManager.Communication.csproj": {
-              "projectPath": "C:\\Users\\joaos\\Dev\\Rocketseat\\GerenciadorTarefas\\TaskManager\\TaskManager.Communication\\TaskManager.Communication.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -98,6 +131,12 @@
     "frameworks": {
       "net10.0": {
         "targetAlias": "net10.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[10.0.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

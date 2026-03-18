@@ -1,0 +1,11 @@
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\bin\Debug\net10.0\TaskManager.Communication.deps.json
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\bin\Debug\net10.0\TaskManager.Communication.dll
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\bin\Debug\net10.0\TaskManager.Communication.pdb
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\TaskManager.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\TaskManager.Communication.AssemblyInfoInputs.cache
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\TaskManager.Communication.AssemblyInfo.cs
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\TaskManager.Communication.csproj.CoreCompileInputs.cache
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\TaskManager.Communication.dll
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\refint\TaskManager.Communication.dll
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\TaskManager.Communication.pdb
+C:\Users\joaos\Dev\Rocketseat\GerenciadorTarefas\TaskManager\TaskManager.Communication\obj\Debug\net10.0\ref\TaskManager.Communication.dll
