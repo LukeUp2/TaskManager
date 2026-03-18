@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using TaskManager.Communication.Enuns;
 
-namespace TaskManager.Communication.Requests
+namespace TaskManager.Communication.Responses
 {
-    public class CreateTaskRequestJson
+    public class TaskResponseJson
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string Name { get; set; } = string.Empty;
@@ -14,6 +14,5 @@ namespace TaskManager.Communication.Requests
         public PriorityEnum Priority { get; set; }
         public DateTime DueDate { get; set; }
         public StatusEnum Status { get; set; }
-
     }
 }
